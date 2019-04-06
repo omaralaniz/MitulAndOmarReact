@@ -4,7 +4,11 @@
   "description": "Swimming with fishes",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "client-install": "cd fish-warehouse && npm isntall",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix fish-warehouse",
+    "dev": "concurrently \"npm run server\" \"npm run client\"" 
   },
   "repository": {
     "type": "git",

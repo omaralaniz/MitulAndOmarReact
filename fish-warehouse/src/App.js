@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Fishes from './components/fishes/fishes';
 
 class App extends Component {
   render() {
@@ -8,9 +9,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
+         <Fishes />
           <a
             className="App-link"
             href="https://reactjs.org"
