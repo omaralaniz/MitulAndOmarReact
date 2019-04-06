@@ -1,0 +1,26 @@
+{
+  "name": "mitul-and-omar-react",
+  "version": "1.0.0",
+  "description": "Swimming with fishes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omaralaniz/MitulAndOmarReact.git"
+  },
+  "author": "Mitul and Omar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omaralaniz/MitulAndOmarReact/issues"
+  },
+  "homepage": "https://github.com/omaralaniz/MitulAndOmarReact#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
